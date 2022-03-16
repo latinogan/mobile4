@@ -7,7 +7,6 @@
   height: 92px;
 }
 
-
 .topnav #myLinks {
   display: none;
 }
@@ -23,7 +22,7 @@ a {
 .active {
   position: relative;
   left: 30px;
-  top:22px;
+  top: 22px;
 }
 
 a .active {
@@ -128,6 +127,7 @@ nav {
   margin: -8px;
   display: flex;
 }
+
 .palet li {
-    width:40px;
+  width: 40px;
 }
