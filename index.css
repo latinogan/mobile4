@@ -4,8 +4,9 @@
   justify-content: space-between;
   color: white;
   background-color: #3e3c3c;
-  height: 70px;
+  height: 92px;
 }
+
 
 .topnav #myLinks {
   display: none;
@@ -22,7 +23,7 @@ a {
 .active {
   position: relative;
   left: 30px;
-  top: 10px;
+  top:22px;
 }
 
 a .active {
@@ -126,4 +127,7 @@ nav {
 .palet img {
   margin: -8px;
   display: flex;
+}
+.palet li {
+    width:40px;
 }
