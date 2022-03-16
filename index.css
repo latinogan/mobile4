@@ -1,11 +1,11 @@
 
 .topnav {
+  display:flex;
+  justify-content:space-between;
+  
   color: white;
   background-color: #3e3c3c;
-  height: 92px;
-  left: 0;
-  top: 0;
-  padding-right: 21px;
+  height: 70px;
 }
 
 .topnav #myLinks {
@@ -23,10 +23,10 @@ a {
 .active {
   position: relative;
   left: 30px;
+  top:10px;
 }
 
 a .active {
-  position: relative;
   width: 77px;
   height: 24px;
   font-family: "Roboto", sans-serif;
@@ -46,8 +46,9 @@ a .active {
   padding-left: 40px;
 }
 
-.topnav a.icon {
-  float: right;
+nav { 
+ display:flex;
+ align-items:center;    
 }
 
 .barra {
