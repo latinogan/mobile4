@@ -49,7 +49,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px 0 0 37px;
+  padding: 0 0 0 37px;
   background: #1c1a19 url(pictures/Group.png) 100% 125% no-repeat;
 }
 
