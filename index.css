@@ -112,3 +112,19 @@ nav {
 .palet li {
   width: 40px;
 }
+.myresent h2 {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  height: 83px;
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 110px;
+ }
+ .myresent img {
+   background-color: #1c1a19;
+   margin-top: 110px;
+ }
