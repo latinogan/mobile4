@@ -49,15 +49,14 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 40px 0 0 37px;
-  position: relative;
-  background: #1c1a19 url(pictures/Group.png) 100% 110% no-repeat;
+  padding: 0px 0 0 37px;
+  background: #1c1a19 url(pictures/Group.png) 100% 125% no-repeat;
 }
 
 .pad {
-  margin: 0 0 50px 8px;
+  margin: 40px 0 50px 0;
   color: #ff6b00;
-  width: 327px;
+  width: 300px;
   height: 124px;
   font-family: "Crete Round", serif;
   font-style: normal;
@@ -75,7 +74,7 @@ nav {
   color: white;
   width: 300px;
   height: 27px;
-  margin-left: 9px;
+  margin-left: 5px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -107,7 +106,7 @@ nav {
 
 .palet a {
   position: relative;
-  right: 40px;
+  right: 50px;
 }
 
 .palet li {
