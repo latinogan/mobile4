@@ -20,9 +20,7 @@ a {
 }
 
 .active {
-  position: relative;
-  left: 30px;
-  top: 17px;
+  margin:17px 0 0 30px;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -33,20 +31,6 @@ a .active {
   width: 77px;
   height: 24px;
   font-family: "Roboto", sans-serif;
-}
-
-.menor {
-  width: 54px;
-  height: 16px;
-  left: 0;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  text-align: center;
-  color: #fff;
-  padding-left: 40px;
 }
 
 nav {
@@ -61,22 +45,21 @@ nav {
 }
 
 .roger {
-  height: 380px;
+  height: 540px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 120px 24px;
+  padding: 40px 0px 0px 37px;
   position: relative;
   background: #1c1a19 url(pictures/Group.png) 100% 110% no-repeat;
 }
 
 .pad {
-  position: relative;
-  left: 20px;
+  margin: 0 0 50px 8px ;
+  padding-top:;
   color: #ff6b00;
   width: 327px;
   height: 124px;
-  bottom: 50px;
   font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: normal;
@@ -93,8 +76,7 @@ nav {
   color: white;
   width: 300px;
   height: 27px;
-  position: relative;
-  left: 20px;
+  margin-left:9px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -104,8 +86,6 @@ nav {
 .theme1 {
   color: white;
   width: 280px;
-  height: 123px;
-  left: 24px;
 }
 
 .text2 {
@@ -115,21 +95,20 @@ nav {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
+  margin-bottom:50px;
 }
 
 .palet {
   display: flex;
-  position: absolute;
-  font-size: 0;
-  justify-content: space-between;
-  left: -10px;
+  justify-content: space-around;
   align-items: center;
-  bottom: 110px;
+  margin-top:160px;
+ list-style:none;
 }
 
-.palet img {
-  margin: -8px;
-  display: flex;
+.palet a {
+    position:relative;
+    right:40px;
 }
 
 .palet li {
