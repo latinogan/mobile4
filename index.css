@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500&family=Poppins&family=Roboto:wght@700&display=swap');
 
 .topnav {
   display: flex;
@@ -25,9 +26,6 @@ a {
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
-}
-
-a .active {
   width: 77px;
   height: 24px;
   font-family: "Roboto", sans-serif;
@@ -63,6 +61,14 @@ nav {
   font-weight: normal;
   font-size: 37px;
   letter-spacing: 0.37px;
+}
+
+.myresent img {
+  margin-left: 25px;
+}
+
+.palet img:hover {
+  background-color: floralwhite;
 }
 
 .k {
@@ -112,19 +118,253 @@ nav {
 .palet li {
   width: 40px;
 }
+
 .myresent h2 {
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  height: 83px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 53px;
   font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
   line-height: 52px;
   margin-top: 110px;
- }
- .myresent img {
-   background-color: #1c1a19;
-   margin-top: 110px;
- }
+}
+
+.contenido {
+  display: grid;
+  row-gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.box {
+  background-image: url(../Pictures/profesionalart.png);
+  background-repeat: no-repeat;
+}
+
+.multi {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  color: #091e42;
+}
+
+.daily {
+  width: 327px;
+  height: 147px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+}
+
+.botones4 {
+  width: 80px;
+  height: 40px;
+  margin-left: 66px;
+}
+
+.botones4 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 0;
+  align-items: center;
+  width: 49px;
+}
+
+.botones4 button {
+  background-color: rgba(255, 255, 255, 0.24);
+  color: #091e42;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: 8px;
+  height: 49px;
+}
+
+.see:hover {
+  background-color: rgb(255, 140, 0);
+}
+
+.proyect button {
+  width: 124px;
+  height: 48px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  background: #ff6b00;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.dashbord {
+  width: 295px;
+  height: 81px;
+  padding-top: 50px;
+  padding-left: 20px;
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.texto3 {
+  width: 295px;
+  height: 87px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  padding-left: 20px;
+}
+
+.botones3 button {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  background-color: rgba(255, 255, 255, 0.24);
+  color: #fff;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: none;
+}
+
+.botones3 ul {
+  width: 61px;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  padding: 10px 12px 0 20px;
+}
+
+.brian button {
+  width: 327px;
+  height: 60px;
+  margin-top: 15px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  background-color: #ff6b00;
+  font-size: 17px;
+  color: #fff;
+}
+
+.about {
+  background: #1c1a19 url(pictures/Frame1.png) 100% 95% no-repeat;
+  margin-top: 80px;
+  height: 645px;
+}
+
+.about h3 {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 88px;
+  color: #ff6b00;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.about p {
+  width: 327px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #f4f5f7;
+  margin-left: 20px;
+}
+
+.proyect2 button {
+  width: 121px;
+  height: 40px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  background: #ff6b00;
+  color: #fff;
+  margin: 10px 0 0 20px;
+}
+
+.experience {
+  display: grid;
+  justify-content: center;
+  background: #1c1a19 url(pictures/vector4.png) 50% 0% no-repeat;
+}
+
+.rectangle {
+  display: flex;
+  align-items: center;
+}
+
+.mob {
+  margin-left: 45px;
+}
+
+.letras2 {
+  width: 164px;
+  height: 24px;
+  font-family: "inaimathi", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  margin-left: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.letrasp {
+  width: 164px;
+  height: 24px;
+  font-family: "inaimathi", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  margin-left: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.agrupador {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+  font-size: 22px;
+  line-height: 43px;
+  text-align: center;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.language {
+  margin-top: 50px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: #3c3a39;
+}
