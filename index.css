@@ -446,3 +446,9 @@ form input {
   color: #fff;
   background-color: #ff6b00;
 }
+
+.get2:hover {
+  background-color: #f4f5f7;
+  color: #000;
+  cursor: pointer;
+}
