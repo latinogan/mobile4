@@ -431,6 +431,8 @@ form input {
   border-right: #fff;
   border-left: #fff;
   color: #979493;
+  height: 45px;
+
 
 }
  .get2 {
@@ -469,7 +471,7 @@ textarea {
 
 input {
   width: 300px;
-  height: 60px;
+  height: 25px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -479,11 +481,13 @@ input {
   background-color: #FBF8F7;
   margin-top: 20px;
   padding-bottom: 5px;
+  border-bottom-style: solid #dbd8d7;
+
 }
 #msg {
   border: none;
   width: 300px;
-  height: 114px;
+  height: 90px;
 }
 .palet2 {
   display: flex;
