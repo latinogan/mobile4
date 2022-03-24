@@ -63,10 +63,6 @@ nav {
   letter-spacing: 0.37px;
 }
 
-/* .myresent img {
-  margin-left: 25px;
-} */
-
 .palet img:hover {
   background-color: floralwhite;
 }
@@ -158,6 +154,21 @@ footer h2 {
   background-repeat: no-repeat;
 }
 
+.box2 {
+  background-image: url(../Pictures/profesionalart.png);
+  background-repeat: no-repeat;
+}
+
+.box3 {
+  background-image: url(../Pictures/profesionalart.png);
+  background-repeat: no-repeat;
+}
+
+.box4 {
+  background-image: url(../Pictures/profesionalart.png);
+  background-repeat: no-repeat;
+}
+
 .multi {
   font-family: "Crete Round", serif;
   font-style: normal;
@@ -236,6 +247,44 @@ footer ul {
   color: #fff;
 }
 
+.dashbord2 {
+  width: 295px;
+  height: 81px;
+  padding-top: 50px;
+  padding-left: 20px;
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.dashbord1 {
+  width: 295px;
+  height: 81px;
+  padding-top: 50px;
+  padding-left: 20px;
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.texto1 {
+  width: 295px;
+  height: 87px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  padding-left: 20px;
+}
+
 .texto3 {
   width: 295px;
   height: 87px;
@@ -270,6 +319,18 @@ footer ul {
 }
 
 .brian button {
+  width: 327px;
+  height: 60px;
+  margin-top: 15px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  background-color: #ff6b00;
+  font-size: 17px;
+  color: #fff;
+}
+
+.brian1 button {
   width: 327px;
   height: 60px;
   margin-top: 15px;
@@ -321,8 +382,6 @@ footer ul {
   background: #ff6b00;
   color: #fff;
   margin-right: 178px;
-
-  /* margin: 10px 0 0 25px; */
 }
 
 .experience {
@@ -503,4 +562,347 @@ textarea {
 
 .formato {
   height: 400px;
+}
+
+@media (min-width: 768px) {
+  nav {
+    display: none;
+  }
+
+  .active {
+    color: #fff;
+    width: 92px;
+    height: 20px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    margin: 28px 0 0 120px;
+  }
+
+  .topnav {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background: #3e3c3c url(Desktop/mail.png) 91% 62% no-repeat;
+    height: 92px;
+  }
+
+  .topnav #myLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f2f2f2;
+    padding: 14px 50px 0 0;
+    margin-right: 110px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .roger {
+    height: 870px;
+    display: flex;
+    padding: 0 0 0 37px;
+    background: #1c1a19 url(Desktop/muñeco2.png) 100% 125% no-repeat;
+  }
+
+  .pad {
+    width: 566px;
+    height: 160px;
+    font-family: "Crete Round", serif;
+    font-style: normal;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 82px;
+    margin: 110px 80px;
+    color: #f55800;
+  }
+
+  .supporttest {
+    color: #fff;
+    width: 566px;
+    height: 24px;
+    margin: 24px 0 0 90px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .developer {
+    margin: 30px 0 0 0;
+  }
+
+  .theme1 {
+    color: #f4f5f7;
+    width: 440px;
+    height: 123px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .palet {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+
+  .palet a {
+    position: relative;
+    bottom: 350px;
+  }
+
+  .myresent {
+    display: flex;
+    margin-left: 120px;
+    background-image: url(../Desktop/line3.png);
+    background-repeat: no-repeat;
+    background-position: 80% 75%;
+    background-size: 63%;
+  }
+
+  footer h2 {
+    width: 450px;
+    height: 256px;
+    font-style: normal;
+    font-family: "Inter", sans-serif;
+    text-align: start;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #172b4d;
+    margin: 0  0 0 150px;
+  }
+
+  .myresent h2 {
+    height: 52px;
+    font-family: "Crete Round", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    margin-top: 110px;
+    background-image: none;
+  }
+
+  .box1 {
+    grid-column: 3;
+  }
+
+  .box1 img {
+    display: none;
+  }
+
+  .box1 .daily {
+    width: 410px;
+    height: 140px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 19px;
+    line-height: 26px;
+  }
+
+  .box2 {
+    height: 435px;
+    background: url(../Desktop/Placeholder.png);
+    background-repeat: no-repeat;
+    margin-top: 90px;
+  }
+
+  .box3 {
+    height: 435px;
+    background: url(../Desktop/Placeholder4.png);
+    background-repeat: no-repeat;
+    margin-top: 90px;
+  }
+
+  .box4 {
+    height: 435px;
+    background: url(../Desktop/Placeholder5.png);
+    background-repeat: no-repeat;
+    margin-top: 90px;
+  }
+
+  .box {
+    height: 435px;
+    background: url(../Desktop/Placeholder3.png);
+    background-repeat: no-repeat;
+    margin-top: 90px;
+  }
+
+  .dashbord1 {
+    display: none;
+  }
+
+  .texto1 {
+    display: none;
+  }
+
+  .contenido {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-gap: 10px;
+    background: url(Desktop/gymfit.png);
+    background-repeat: no-repeat;
+    background-position: 15% 0%;
+  }
+
+  .multi {
+    height: 48px;
+    font-family: "Crete Round", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .brian1 button {
+    width: 369px;
+    height: 60px;
+    margin-top: 294px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    background-color: #ff6b00;
+    font-size: 17px;
+    color: #fff;
+  }
+
+  .brian button {
+    display: none;
+  }
+
+  .dashbord {
+    margin-top: 130px;
+  }
+
+  .dashbord2 {
+    margin-top: 130px;
+  }
+
+  .texto3 {
+    width: 337px;
+    height: 50px;
+    margin: 0;
+  }
+
+  .botones3 button {
+    width: 95px;
+    height: 40px;
+  }
+
+  .about {
+    background: #1c1a19 url(Desktop/Frame.png) 100% 40% no-repeat;
+    margin-top: 80px;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about h3 {
+    width: 466px;
+    height: 78px;
+    font-family: "Crete Round", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 88px;
+    color: #ff6b00;
+    padding-top: 90px;
+  }
+
+  .about p {
+    width: 566px;
+    height: 148px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #f4f5f7;
+    margin: 30px 0 0 90px;
+  }
+
+  .proyect2 button {
+    width: 161px;
+    height: 48px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    background: #ff6b00;
+    color: #fff;
+    margin-left: 90px;
+  }
+
+  .experience {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    height: 500px;
+  }
+
+  .letras2 {
+    margin-left: 20px;
+  }
+
+  .agrupador {
+    text-align: start;
+  }
+
+  .agrupador2 {
+    text-align: start;
+  }
+
+  .agrupador3 {
+    text-align: start;
+    background-position: 8% 6%;
+  }
+
+  .formato {
+    height: 500px;
+    margin: 200px 0 0 0;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: repeat(2, 650px);
+  }
+
+  #msg {
+    border: none;
+    width: 500px;
+    height: 100px;
+  }
+
+  .get2 {
+    width: 130px;
+    height: 48px;
+    margin: 10px 0 0 0;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    background-color: #ff6b00;
+  }
+
+  .palet2 {
+    grid-column-start: 2;
+    background: none;
+  }
 }
