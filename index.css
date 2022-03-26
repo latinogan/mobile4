@@ -164,22 +164,22 @@ footer h2 {
 }
 
 .box {
-  background-image: url(./Pictures/profesionalart.png);
+  background-image: url(./pictures/profesionalart.png);
   background-repeat: no-repeat;
 }
 
 .box2 {
-  background-image: url(./Pictures/profesionalart.png);
+  background-image: url(./pictures/profesionalart.png);
   background-repeat: no-repeat;
 }
 
 .box3 {
-  background-image: url(./Pictures/profesionalart.png);
+  background-image: url(./pictures/profesionalart.png);
   background-repeat: no-repeat;
 }
 
 .box4 {
-  background-image: url(./Pictures/profesionalart.png);
+  background-image: url(./pictures/profesionalart.png);
   background-repeat: no-repeat;
 }
 
@@ -648,6 +648,7 @@ textarea {
     margin-top: 130px;
     margin-left: 80px;
     color: #f55800;
+   
   }
 
   .supporttest {
@@ -928,7 +929,10 @@ textarea {
   }
 
   .get:hover {
-    background-color: rgb(231, 198, 130);
+   /* background-color: rgb(231, 198, 130);*/
+
+   
+    
   }
 
   footer {
