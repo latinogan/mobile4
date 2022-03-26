@@ -648,7 +648,6 @@ textarea {
     margin-top: 130px;
     margin-left: 80px;
     color: #f55800;
-   
   }
 
   .supporttest {
@@ -929,10 +928,10 @@ textarea {
   }
 
   .get:hover {
-   transition: all 0.2s ease-in-out;
-   background: #fff5e1;
-   border: 1px solid #f55800;
-   color: #f55800;
+    transition: all 0.2s ease-in-out;
+    background: #fff5e1;
+    border: 1px solid #f55800;
+    color: #f55800;
   }
 
   footer {
@@ -952,8 +951,10 @@ textarea {
     font-weight: bold;
     font-size: 17px;
     line-height: 24px;
+    transition: all 0.2s ease-in-out;
+    background: #f55800;
+    border: 1px solid #f55800;
     color: #fff;
-    background-color: #ff6b00;
   }
 
   .palet2 {
