@@ -929,10 +929,10 @@ textarea {
   }
 
   .get:hover {
-   /* background-color: rgb(231, 198, 130);*/
-
-   
-    
+   transition: all 0.2s ease-in-out;
+   background: #fff5e1;
+   border: 1px solid #f55800;
+   color: #f55800;
   }
 
   footer {
