@@ -164,22 +164,22 @@ footer h2 {
 }
 
 .box {
-  background-image: url(./Pictures/profesionalart.png);
+  background-image: url(./pictures/profesionalart.png);
   background-repeat: no-repeat;
 }
 
 .box2 {
-  background-image: url(./Pictures/profesionalart.png);
+  background-image: url(./pictures/profesionalart.png);
   background-repeat: no-repeat;
 }
 
 .box3 {
-  background-image: url(./Pictures/profesionalart.png);
+  background-image: url(./pictures/profesionalart.png);
   background-repeat: no-repeat;
 }
 
 .box4 {
-  background-image: url(./Pictures/profesionalart.png);
+  background-image: url(./pictures/profesionalart.png);
   background-repeat: no-repeat;
 }
 
@@ -928,7 +928,10 @@ textarea {
   }
 
   .get:hover {
-    background-color: rgb(231, 198, 130);
+    transition: all 0.2s ease-in-out;
+    background: #fff5e1;
+    border: 1px solid #f55800;
+    color: #f55800;
   }
 
   footer {
@@ -948,8 +951,10 @@ textarea {
     font-weight: bold;
     font-size: 17px;
     line-height: 24px;
+    transition: all 0.2s ease-in-out;
+    background: #f55800;
+    border: 1px solid #f55800;
     color: #fff;
-    background-color: #ff6b00;
   }
 
   .palet2 {
