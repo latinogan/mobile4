@@ -15,7 +15,7 @@
 
 [Live Demo Link](https://livedemo.com)
 
-## github page ( available)
+## github page 
 
 https://latinogan.github.io/mobile4/
 
