@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500&family=Poppins&family=Roboto:wght@700&display=swap');
 
+@keyframes example {
+  50% {
+    color: red;
+  }
+
+  25% {
+    color: yellow;
+  }
+
+  50% {
+    color: blue;
+  }
+
+  75% {
+    color: green;
+  }
+
+  100% {
+    color: red;
+  }
+}
+
 .topnav {
   display: flex;
   justify-content: space-between;
@@ -60,7 +82,11 @@ nav {
   font-style: normal;
   font-weight: normal;
   font-size: 37px;
+  position: relative;
   letter-spacing: 0.37px;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-direction: reverse;
 }
 
 .palet img:hover {
@@ -591,6 +617,33 @@ textarea {
 }
 
 @media (min-width: 768px) {
+  @keyframes example {
+    50% {
+      color: red;
+      left: 200px;
+    }
+
+    25% {
+      color: yellow;
+      left: 400px;
+    }
+
+    50% {
+      color: blue;
+      left: 600px;
+    }
+
+    75% {
+      color: green;
+      left: 800px;
+    }
+
+    100% {
+      color: red;
+      left: 900px;
+    }
+  }
+
   nav {
     display: none;
   }
@@ -648,6 +701,11 @@ textarea {
     margin-top: 130px;
     margin-left: 80px;
     color: #f55800;
+    position: relative;
+    letter-spacing: 0.37px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-direction: reverse;
   }
 
   .supporttest {
