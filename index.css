@@ -951,7 +951,7 @@ textarea {
     font-weight: bold;
     font-size: 17px;
     line-height: 24px;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.5s ease-in-out;
     background: #f55800;
     border: 1px solid #f55800;
     color: #fff;
