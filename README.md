@@ -17,10 +17,6 @@
 
 
 
-
-
-
-
 ## Authors
 
 👤 Roger Smit Castillo
