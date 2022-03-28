@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500&family=Poppins&family=Roboto:wght@700&display=swap');
 
 @keyframes example {
-  500% {
+  50% {
     color: red;
   }
 
@@ -618,7 +618,7 @@ textarea {
 
 @media (min-width: 768px) {
   @keyframes example {
-    500% {
+    50% {
       color: red;
       left: 200px;
     }
