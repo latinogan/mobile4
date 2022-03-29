@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500&family=Poppins&family=Roboto:wght@700&display=swap');
 
+*{
+  margin-right:0px;
+  margin-left:0px;
+}
 @keyframes example {
   50% {
     color: red;
@@ -183,7 +187,7 @@ footer h2 {
   margin-top: 90px;
 }
 
-.box1 {
+#box1 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -394,7 +398,7 @@ footer ul {
   color: #fff;
 }
 
-.about {
+#about {
   background: #1c1a19 url(./pictures/Frame1.png) 100% 80% no-repeat;
   margin-top: 80px;
   height: 610px;
@@ -403,7 +407,7 @@ footer ul {
   align-items: center;
 }
 
-.about h3 {
+#about h3 {
   font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: normal;
@@ -415,7 +419,7 @@ footer ul {
   margin: 10px;
 }
 
-.about p {
+#about p {
   width: 327px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -612,7 +616,7 @@ textarea {
   background-position: 60% 60%;
 }
 
-.formato {
+#formato {
   height: 400px;
 }
 
@@ -789,7 +793,7 @@ textarea {
     margin-bottom: 115px;
   }
 
-  .box1 {
+  #box1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 550px;
@@ -799,13 +803,13 @@ textarea {
     display: grid;
   }
 
-  .box1 img {
+  #box1 img {
     width: 684px;
     height: 448px;
     margin-left: 120px;
   }
 
-  .box1 .daily {
+  #box1 .daily {
     width: 410px;
     height: 140px;
     font-family: "Inter", sans-serif;
@@ -901,7 +905,7 @@ textarea {
     height: 40px;
   }
 
-  .about {
+  #about {
     background: #1c1a19 url(./Desktop/Frame.png) 100% 40% no-repeat;
     margin-top: 80px;
     height: 610px;
@@ -910,7 +914,7 @@ textarea {
     align-items: flex-start;
   }
 
-  .about h3 {
+  #about h3 {
     width: 466px;
     height: 78px;
     font-family: "Crete Round", serif;
@@ -922,7 +926,7 @@ textarea {
     padding-top: 90px;
   }
 
-  .about p {
+  #about p {
     width: 566px;
     height: 148px;
     font-family: "Inter", sans-serif;
@@ -976,7 +980,7 @@ textarea {
     background-position: 8% 6%;
   }
 
-  .formato {
+  #formato {
     height: 390px;
     margin: 80px 0 0 0;
   }
@@ -994,7 +998,7 @@ textarea {
 
   footer {
     display: grid;
-    grid-template-columns: repeat(2, 650px);
+    grid-template-columns: repeat(2, 600px);
     background: url(./Desktop/linef.png);
     background-repeat: no-repeat;
     background-position: 30% 80%;
