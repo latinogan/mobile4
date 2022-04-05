@@ -13,10 +13,10 @@ btn.onclick = function () {
 };
 btn.addEventListener('click', () => {
   if (!menu) {
-    icon.classList.replace('fa-times', 'fa-bars');
+    icon.classList.replace('fa-bars', 'fa-times');
     menu = true;
   } else {
-    icon.classList.replace('fa-bars', 'fa-times');
+    icon.classList.replace('fa-times', 'fa-bars');
     menu = false;
   }
 });
