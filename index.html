@@ -10,8 +10,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500&family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
-
-
     <link rel="stylesheet" href="index.css">
     <title>Roger Software developer </title>
 </head>
@@ -20,6 +18,7 @@
     <header>
         <!-- header navbar -->
         <!--top nav -->
+        
         <div class="topnav">
             <!--hamburhuer tap-->
 
@@ -31,15 +30,19 @@
                 <a href="#about">About</a>
                 <a href="#formato">Contact</a>
             </div>
+           
             <!--hamburguer tap-->
 
             <nav>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
+                    <i class="fa fa-bars "></i>
+
                 </a>
             </nav>
 
         </div>
+        
+    
 
     </header>
 
@@ -303,5 +306,61 @@
         </ul>
     </footer>
 </body>
+ <script>
+
+ 
+
+ let btn =document.querySelector(".icon");
+ let icon=btn.querySelector(".fa-bars")
+ let x = document.getElementById("myLinks");
+
+
+btn.onclick=function (){ 
+
+ if (x.style.display === "block" && icon.classList.contains("fa-bars")) {
+   x.style.display = "none"; 
+   icon.classList.replace("fa-bars","fa-times"); 
+   
+  
+    
+   
+
+ } else {
+   x.style.display = "block";
+   
+   icon.classList.replace("fa-times","fa-bars"); 
+  
+  
+
+   
+  
+ }
+}
+
+
+  
+
+
+
+/*let btn =document.querySelector(".icon");
+let icon=btn.querySelector(".fa-bars");
+
+btn.onclick=function (){ 
+    
+if (icon.classList.contains("fa-bars")) {
+    icon.classList.replace("fa-bars","fa-times");
+    
+}else {
+    icon.classList.replace("fa-times","fa-bars");
+
+}
+}*/
+
+
+
+
+
+
+</script>
 
 </html>

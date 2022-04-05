@@ -27,24 +27,36 @@
   }
 }
 
+
+
 .topnav {
-  display: flex;
-  justify-content: space-between;
-  color: white;
-  background-color: #3e3c3c;
-  height: 92px;
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
 }
 
 .topnav #myLinks {
   display: none;
 }
 
-a {
-  float: left;
+.topnav a {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  display: block;
+}
+#myLinks a {
+  padding-left: 50px;
+  border-bottom: solid 1px #6F6C6B;
+  
+}
+.topnav a.icon {
+  
+  display: block;
+  position: absolute;
+  right: 30px;
+  top: 20px;
 }
 
 .active {
@@ -56,11 +68,12 @@ a {
   width: 77px;
   height: 24px;
   font-family: "Roboto", sans-serif;
+  
 }
 
 nav {
   display: flex;
-  align-items: center;
+   align-items: center;
 }
 
 .barra {
@@ -68,9 +81,12 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+.icon {
+  cursor: pointer;
+}
 
 .roger {
-  height: 540px;
+  height: 560px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -139,7 +155,8 @@ nav {
 
 .palet a {
   position: relative;
-  right: 50px;
+  right: 30px;
+  top:20px;
 }
 
 .palet li {
@@ -639,7 +656,10 @@ textarea {
   justify-content: center;
   background-image: url(./pictures/shape.png);
   background-repeat: no-repeat;
-  background-position: 60% 60%;
+  background-position: 75% 60%;
+}
+.palet2 li {
+  margin-left:8px;
 }
 
 #formato {
@@ -711,6 +731,7 @@ textarea {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
+  
   }
 
   .roger {
@@ -1063,4 +1084,9 @@ textarea {
   input {
     width: 80%;
   }
+  #myLinks a {
+    border-style: none;
+    padding: 20px;;
+  }
+  
 }
