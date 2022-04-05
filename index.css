@@ -62,6 +62,11 @@
 #myLinks a {
   padding-left: 50px;
   border-bottom: solid 1px #6f6c6b;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
 }
 
 .topnav a.icon {
@@ -729,8 +734,6 @@ textarea {
     font-size: 15px;
     line-height: 20px;
     height: 42px;
-
-    /* padding: 20px; */
     position: static;
     background: none;
     width: 40%;
