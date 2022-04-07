@@ -30,3 +30,54 @@ x.addEventListener('click', () => {
     menu = true;
   }
 });
+
+const details = [
+  {
+    name: 'Fit Academy School',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    image: './Desktop/pop.png',
+    technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
+    source: 'https://github.com/latinogan/mobile4',
+    live: 'https://latinogan.github.io/mobile4/',
+  },
+  {
+    name: 'Profesional Art Printing',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    image: './Desktop/pop.png',
+    technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
+    source: 'https://github.com/latinogan/mobile4',
+    live: 'https://latinogan.github.io/mobile4/',
+  },
+  {
+    name: 'Website Portafolio',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    image: './Desktop/pop.png',
+    technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
+    source: 'https://github.com/latinogan/mobile4',
+    live: 'https://latinogan.github.io/mobile4/',
+  },
+  {
+    name: 'Website Portafolio',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    image: './Desktop/pop.png',
+    technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
+    source: 'https://github.com/latinogan/mobile4',
+    live: 'https://latinogan.github.io/mobile4/',
+  },
+  {
+    name: 'Fit Academy School',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    image: './Desktop/pop.png',
+    technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
+    source: 'https://github.com/latinogan/mobile4',
+    live: 'https://latinogan.github.io/mobile4/',
+  },
+  {
+    name: 'HealtyCare',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    image: './Desktop/pop.png',
+    technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
+    source: 'https://github.com/latinogan/mobile4',
+    live: 'https://latinogan.github.io/mobile4/',
+  },
+];
