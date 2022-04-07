@@ -109,9 +109,47 @@
             </div>
         </div>
     </div>
+       
+        <!--POP UP WINDOW-->
 
+    <div id="modulo">
+        <div class="content">
+            <div class="heading">
+                <h2>Keeping track of hundreds  of components website</h2>
+                <div class="close">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="pop">
+                <ul class="pop1">
+                    <li  class="pop2">
+                        <button type="button">HTML</button>
+                    </li>
+                    <li  class="pop2"> <button type="button">BootStrap</button></li>
+                    <li  class="pop2"> <button type="button">Ruby on rails</button></li>
+                </ul>
+            </div>
+            
+            <div class="img-p-button">
+                <img class="image" src="./Desktop/pop.png" alt="live pop">
+                <div class="p-button">
+                    <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+                        a galley of type and scrambled it to make a type specimen book. It has survived not only five
+                        centuries, but also the leap into electronic typesetting, remaining essent</p>
+                    <div class="double-button">
+                        <a class="first-button" href="/">See Live <img src="./Desktop/rondom.png" alt="github source">
+                        </a>
+                        <a class="first-button" href="/">See Source <img class="popimg" src="./Desktop/popbtn.png" alt="github web"> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
     <div class="contenido">
-        <div class="box2" tabindex="0">
+        <div class="box2 click-card" tabindex="0">
             <h3 class="dashbord1">Profesional Art Printing Data</h3>
             <p class="texto1"> A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
 
@@ -130,14 +168,14 @@
             </div>
         </div>
 
-        <div class="box3" tabindex="0">
+        <div class="box3 click-card" tabindex="0">
             <h3 class="dashbord">Data Dashboard Healthcare</h3>
             <p class="texto3">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
 
             <div class="botones3">
                 <ul>
                     <li>
-                        <bUtton type="button">HTML</bUtton>
+                        <button type="button">HTML</bUtton>
                     </li>
                     <li> <button type="button">BootStrap</button></li>
                     <li> <button type="button">Ruby</button></li>
@@ -147,14 +185,14 @@
                 <button type="button" class="see">See Proyect</button>
             </div>
         </div>
-        <div class="box4" tabindex="0">
+        <div class="box4 click-card" tabindex="0">
             <h3 class="dashbord2">Website Protfolio</h3>
             <p class="texto3">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
 
             <div class="botones3">
                 <ul>
                     <li>
-                        <bUtton type="button">HTML</bUtton>
+                        <button type="button">HTML</bUtton>
                     </li>
                     <li> <button type="button">BootStrap</button></li>
                     <li> <button type="button">Ruby</button></li>
@@ -164,14 +202,14 @@
                 <button type="button" class="see">See Proyect</button>
             </div>
         </div>
-        <div class="box" tabindex="0">
+        <div class="box click-card" tabindex="0">
             <h3 class="dashbord">Profesional Art Printing Data more</h3>
             <p class="texto3">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
 
             <div class="botones3">
                 <ul>
                     <li>
-                        <bUtton type="button">HTML</bUtton>
+                        <button type="button">HTML</bUtton>
                     </li>
                     <li> <button type="button">BootStrap</button></li>
                     <li> <button type="button">Ruby</button></li>
@@ -181,7 +219,7 @@
                 <button type="button" class="see">See Proyect</button>
             </div>
         </div>
-        <div class="box3" tabindex="0">
+        <div class="box3 click-card" tabindex="0">
             <h3 class="dashbord">Data Dashboard Healthcare</h3>
             <p class="texto3">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
 
@@ -198,7 +236,7 @@
                 <button type="button" class="see">See Proyect</button>
             </div>
         </div>
-        <div class="box4" tabindex="0">
+        <div class="box4 click-card" tabindex="0">
             <h3 class="dashbord">Website Protfolio</h3>
             <p class="texto3">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
 
@@ -264,7 +302,7 @@
         </div>
 
         <div id="formato">
-            <form action="https://formspree.io/f/mwkyoykw" method="post">
+            <form id="form" action="https://formspree.io/f/mwkyoykw" method="post">
                 <ul>
                     <li>
 
@@ -280,10 +318,11 @@
 
                     </li>
                     <li>
-                        <button type="submit" class="get2">Get in touch</button>
+                        <button type="submit" name="submit" class="get2">Get in touch</button>
                     </li>
 
                 </ul>
+                <span id="validator-message"></span>
             </form>
 
         </div>
@@ -304,9 +343,11 @@
                 <a href="#"><img src="pictures/vmagic.png" alt="Email Account"></a>
             </li>
         </ul>
+   
     </footer>
-    <script src="script.js">
-        </script>
+    <script src="form.js">  </script>
+    <script src="script.js">  </script>
+    
         
 </body>
  
