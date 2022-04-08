@@ -86,12 +86,14 @@ footer h2 {
 }
 
 .pop button {
+  height: 40px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
   color: #3c3a39;
+  background-color: #fff;
 }
 
 footer ul {
@@ -1075,12 +1077,16 @@ textarea {
     height: 435px;
     background: url(./Desktop/Placeholder.png);
     background-repeat: no-repeat;
+    grid-column-start: 1;
+    grid-column-end: 2;
   }
 
   .box3 {
     height: 435px;
     background: url(./Desktop/Placeholder4.png);
     background-repeat: no-repeat;
+    grid-column-start: 2;
+    grid-column-end: 3;
   }
 
   .box4 {
