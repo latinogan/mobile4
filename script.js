@@ -172,7 +172,7 @@ const details = [
     live: 'https://latinogan.github.io/mobile4/',
   },
   {
-    name: 'Fit Academy School',
+    name: 'Data Dash Bord',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     image: './Desktop/pop.png',
     technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
