@@ -763,6 +763,12 @@ textarea {
   height: 400px;
 }
 
+#validator-message {
+  background-color: red;
+  color: #fff;
+  margin-left: 50px;
+}
+
 @media (min-width: 768px) {
   @keyframes example {
     50% {
@@ -1300,5 +1306,10 @@ textarea {
     font-weight: 600;
     font-size: 15px;
     border-style: none;
+  }
+
+  #validator-message {
+    background-color: red;
+    color: #fff;
   }
 }
