@@ -274,6 +274,8 @@ closeProjectButton.addEventListener('click', () => {
   windowPop.style.display = 'none';
 });
 
+//storage data
+
 const formName = document.querySelector('#name');
 const formEmail = document.querySelector('#mail');
 const formText = document.querySelector('#msg');
@@ -297,3 +299,9 @@ formName.setAttribute('value', localData.name);
 formEmail.setAttribute('value', localData.email);
 formText.innerText = localData.msg;
 }
+loadData();
+formName.addEventListener('change', storeData);
+formEmail.addEventListener('change', storeData);
+formText.addEventListener('change', storeData);
+
+Array.from(form.elements).forEach((formElement) => formElement.addEventListener('input', loadData));
