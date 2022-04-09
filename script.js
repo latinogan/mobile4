@@ -277,3 +277,12 @@ closeProjectButton.addEventListener('click', () => {
 const formName = document.querySelector('#name');
 const formEmail = document.querySelector('#mail');
 const formText = document.querySelector('#msg');
+
+function storeData() {
+  const formData = {
+    name: formName.value,
+    email: formEmail.value,
+    msg: formText.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
