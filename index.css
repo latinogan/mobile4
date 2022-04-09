@@ -762,6 +762,12 @@ textarea {
 #formato {
   height: 400px;
 }
+#validator-message {
+  background-color:red;
+  color:#ffffff;
+  margin-left:50px;
+
+}
 
 @media (min-width: 768px) {
   @keyframes example {
