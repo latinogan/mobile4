@@ -1,8 +1,7 @@
 const emailAddress = document.getElementById('mail');
 const validatorMessage = document.getElementById('validator-message');
 const btn1 = document.querySelector('.get2');
-const form=document.querySelector("#form")
-
+const form = document.querySelector('#form');
 
 btn1.addEventListener('click', (e) => {
   if (emailAddress.value !== emailAddress.value.toLowerCase()) {
@@ -13,5 +12,4 @@ btn1.addEventListener('click', (e) => {
     validatorMessage.textContent = '';
     form.submit();
   }
-  
 });
