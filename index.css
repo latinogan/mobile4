@@ -1307,4 +1307,9 @@ textarea {
     font-size: 15px;
     border-style: none;
   }
+
+  #validator-message {
+    background-color:red;
+    color:#ffffff;
+  }
 }
