@@ -274,4 +274,6 @@ closeProjectButton.addEventListener('click', () => {
   windowPop.style.display = 'none';
 });
 
-
+const formName = document.querySelector('#name');
+const formEmail = document.querySelector('#mail');
+const formText = document.querySelector('#msg');
