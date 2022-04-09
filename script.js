@@ -273,3 +273,5 @@ closeProjectButton.addEventListener('click', () => {
   const windowPop = document.querySelector('#modulo');
   windowPop.style.display = 'none';
 });
+
+
