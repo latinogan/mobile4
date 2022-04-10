@@ -273,3 +273,33 @@ closeProjectButton.addEventListener('click', () => {
   const windowPop = document.querySelector('#modulo');
   windowPop.style.display = 'none';
 });
+
+// storage data
+
+const formName = document.querySelector('#name');
+const formEmail = document.querySelector('#mail');
+const formText = document.querySelector('#msg');
+
+function storeData() {
+  const formData = {
+    name: formName.value,
+    email: formEmail.value,
+    msg: formText.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+
+function loadData() {
+  if (!localStorage.getItem('formData')) {
+    storeData();
+  }
+
+  const localData = JSON.parse(localStorage.getItem('formData'));
+  formName.setAttribute('value', localData.name);
+  formEmail.setAttribute('value', localData.email);
+  formText.innerText = localData.msg;
+}
+loadData();
+formName.addEventListener('change', storeData);
+formEmail.addEventListener('change', storeData);
+formText.addEventListener('change', storeData);
