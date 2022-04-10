@@ -273,9 +273,7 @@ closeProjectButton.addEventListener('click', () => {
   const windowPop = document.querySelector('#modulo');
   windowPop.style.display = 'none';
 });
-
-// storage data
-
+//
 const formName = document.querySelector('#name');
 const formEmail = document.querySelector('#mail');
 const formText = document.querySelector('#msg');
